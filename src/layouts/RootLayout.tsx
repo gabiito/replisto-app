@@ -1,7 +1,8 @@
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { Container } from "@/components/Layout";
-import { footerDisclaimer, socialLinks } from "@/constants";
+import { footerDisclaimer } from "@/components/Footer"
+import { socialLinks } from "@/constants";
 
 interface RootLayoutProps {
   children: React.ReactNode;
